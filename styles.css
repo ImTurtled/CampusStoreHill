@@ -1,0 +1,12 @@
+td {
+    width: 50%;
+}
+td p {
+    background-color: yellow;
+}
+body {
+    color: blue;
+}
+table {
+    width: 100%;
+}
