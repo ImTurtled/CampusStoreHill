@@ -5,17 +5,6 @@
 h1 {
     font-size: 50px;
 }
-.title h1 {
-	font-size: 75px;
-}
-.title h2 {
-    font-size: 50px;
-}
-.title {
-    text-align: center;
-    color: #03335F;
-    border-bottom: 20px solid white;
-}
 h3 {
 	font-size: 35px;
 }
@@ -24,7 +13,20 @@ body {
 	color: #001C48;
 
 }
-
+td {
+	text-align: center;
+	width: 50%;
+	border: 5px solid darkblue;
+	font-size: 20px;
+	font-weight: bold;
+}
+th {
+	font-size: 25px;
+}
+tr {
+	text-align: center;
+	border: 5px solid darkblue;
+}
 .half {
 	width: 50%;
 
@@ -67,19 +69,5 @@ br {
 	border-top: 20px solid white;
 }
 .carousel-item {
-	background-color: #03335F;
-}
-.times td {
-}
-td {
-	text-align: center;
-	width: 50%;
-	font-size: 20px;
-	font-weight: bold;
-}
-th {
-	font-size: 25px;
-}
-tr {
-	text-align: center;
+	background-color: #001C47;
 }
