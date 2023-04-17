@@ -13,29 +13,36 @@ h1 {
 }
 .title {
     text-align: center;
-    color: #03335F;
+    color: white;
     border-bottom: 20px solid white;
+	background-image: url("/placeholder2.png");
+	padding: 300px;
 }
 h3 {
 	font-size: 35px;
 }
 body {
-	background-color: lightblue;
-	color: #001C48;
-
+	background-color: #03335F;
+	color: white;
 }
 
 .half {
 	width: 50%;
 
 }
+.times table {
+	width: 20%;
+}
 table {
 	border-collapse: collapse;
+	border: 5px solid white;
+	width: 80%;
+	margin: 0 auto;
 }
 .footer {
 	text-align: center;
 	background-color: darkorange;
-	border: 5px solid darkblue;
+	border: 5px solid white;
 
 }
 h5 {
@@ -45,6 +52,9 @@ h5 {
 a {
 	color: white;
 	font-weight: bold;
+}
+.nobold a {
+	font-weight: normal;
 }
 button {
 	background-color: darkblue;
@@ -66,16 +76,30 @@ br {
 	background-color: #03335F;
 }
 .times td {
-}
-td {
 	text-align: center;
 	width: 50%;
-	font-size: 20px;
+	font-size: 5px;
 	font-weight: bold;
+}
+.times th {
+	font-size: 15px;
+}
+td {
+	font-size 20px;
 }
 th {
 	font-size: 25px;
 }
+td, th {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: none;
+	padding-bottom: none;
+	border: 5px solid white;
+}
 tr {
 	text-align: center;
+}
+#test {
+	width: 500px;
 }
