@@ -102,4 +102,8 @@ tr {
 }
 #test {
 	width: 500px;
+	border: 5px solid white;
+}
+#testLC {
+	width: 500px;
 }
