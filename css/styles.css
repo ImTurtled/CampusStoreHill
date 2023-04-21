@@ -9,8 +9,7 @@ h3 {
 	font-size: 35px;
 }
 body {
-	color: #001C48;
-
+	font-family: tahoma;	
 }
 
 .half {
@@ -78,16 +77,15 @@ h1 {
     border-bottom: 20px solid #03335F;
 	background-image: url("/placeholder2.png");
 	padding: 300px;
-}
-.caro {
-	border-top: 10px solid white;
+	border: 5px solid #03335F;
+	border-bottom: 20px solid #03335F
 }
 h3 {
 	font-size: 35px;
 }
 body {
-	background-color: #03335F;
-	color: white;
+	background-color: white;
+	color: #03335F;
 }
 
 .half {
@@ -99,7 +97,7 @@ body {
 }
 table {
 	border-collapse: collapse;
-	border: 5px solid white;
+	border: 5px solid #03335F;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -125,13 +123,13 @@ button {
 	margin-left: 25%;
 }
 br {
-	background-color: white;
+	background-color: #03335F;
 }
 #haha {
-	border-top: 20px solid white;
+	border-top: 20px solid #03335F;
 }
 .carousel-item {
-	background-color: white;
+	background-color: #03335F;
 }
 .times td {
 	text-align: center;
@@ -153,14 +151,14 @@ td, th {
 	padding-right: 10px;
 	padding-top: none;
 	padding-bottom: none;
-	border: 5px solid white;
+	border: 5px solid #03335F;
 }
 tr {
 	text-align: center;
 }
 #test {
 	width: 500px;
-	border: 5px solid white;
+	border: 5px solid #03335F;
 }
 #testLC {
 	width: 500px;
