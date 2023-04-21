@@ -24,27 +24,93 @@
 <script src="js/popper.min.js"></script> 
 <script src="js/bootstrap-4.4.1.js"></script>
 </body>
+	
 
-<form action="/action_page.php" method="post" class="offset-lg-0 col-lg-3">
-  <div class="imgcontainer">
-  <img src="images/Blank-Default.jpg" width="200" height="200" alt=""/> </div>
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+	
+	
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Deposit Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #03335f;
+            color: #FFFFFF;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #F3B720;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        label, input, select, button {
+            margin-bottom: 10px;
+        }
+        button {
+            background-color: #03335f;
+            color: #F3B720;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #022850;
+        }
+        #balance {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Deposit Page</h1>
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-        
-    <button type="submit">Login</button>\
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
+        <section id="balance">
+            <h2>Student Balance</h2>
+            <p>Current Balance: <span id="balanceAmount">$0.00</span></p>
+        </section>
 
-  <div class="container" style="background-color:#f1f1f1">
-  
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
+        <section id="deposit">
+            <h2>Add Funds</h2>
+            <form>
+                <label for="depositType">Deposit Type:</label>
+                <select id="depositType" name="depositType" required>
+                    <option value="bankTransfer">Bank Transfer</option>
+                    <option value="creditCard">Credit Card</option>
+                    <option value="debitCard">Debit Card</option>
+                </select>
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" name="amount" step="0.01" min="1" required>
+                <button type="submit">Add Funds</button>
+            </form>
+        </section>
+    </div>
+</body>
 </html>
+
+
+	
+
+	
+	
+	
