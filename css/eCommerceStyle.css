@@ -5,7 +5,7 @@ a:hover {
 }
 /*header*/
 header {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 16px;
 	font-style: normal;
@@ -39,13 +39,12 @@ header {
 }
 /* Offer text banner*/
 #offer {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	clear: both;
 	background-color: rgba(246,246,246,1.00);
 	color: rgba(146,146,146,1.00);
-	padding-left: 115px;
-	padding-top: 57px;
-	padding-bottom: 57px;
+	text-align: center;
+	padding: 20px;
 }
 /* Main content of the site */
 #content {
@@ -55,7 +54,7 @@ header {
 }
 /* Sidebar */
 #content .sidebar {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(146,146,146,1.00);
 	float: left;
 	width: 20%;
@@ -118,7 +117,7 @@ header {
 }
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgba(146,146,146,1.00);
 	font-size: 22px;
 	position: relative;
@@ -129,7 +128,7 @@ header {
 	position: relative;
 	top: -37px;
 	font-size: 14px;
-	font-family: source-sans-pro, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	color: rgba(146,146,146,1.00);
@@ -153,7 +152,7 @@ header {
 	clear: both;
 	overflow: auto;
 	background-color: rgba(208,207,207,1.00);
-	font-family: source-sans-pro, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 	font-weight: 200;
 	line-height: 1.8;
