@@ -10269,4 +10269,20 @@ transform: scale(1);
   ;
   transform-origin: bottom left;
 }
+
+#maintext {
+	font-size: 30px;
+	color: #03335F;
+	
+}
+
+.title {
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid #03335F;
+	background-image: url("/images/image3.HEIC");
+	padding: 150px;
+	border: 5px solid #03335F;
+	border-bottom: 5px solid #03335F
+}
 /*# sourceMappingURL=bootstrap.css.map */
