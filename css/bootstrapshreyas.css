@@ -10226,4 +10226,47 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.hoverimage{
+
+transform: scale(1);
+	transition: 1s;
+	-webkit-filter: grayscale(90%) !important;
+	filter: grayscale(90%) !important;
+}
+
+
+.hoverimage:hover {
+
+	transform: scale(1.04);
+
+	-webkit-filter: grayscale(0) !important;
+	filter: grayscale(0) !important;
+
+}
+.underlinetext {
+  display: inline-block;
+  position: relative;
+  color: #F6EEE0;
+
+}
+.underlinetext:after {
+	text-align: center;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#F6EEE0;
+  transform-origin: bottom right;
+  transition: transform 0.5s ease-out;
+}
+.underlinetext:hover:after {
+  transform: scaleX(1);
+  ;
+  transform-origin: bottom left;
+}
 /*# sourceMappingURL=bootstrap.css.map */
