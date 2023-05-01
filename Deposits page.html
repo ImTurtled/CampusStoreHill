@@ -38,6 +38,8 @@
             font-family: Arial, sans-serif;
             background-color: #03335f;
             color: #FFFFFF;
+            margin: 0;
+            padding: 0;
         }
         .container {
             max-width: 800px;
@@ -69,21 +71,45 @@
         #balance {
             margin-bottom: 20px;
         }
+        #loginModal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        .modal-content {
+            background-color: #F3B720;
+            margin: 10% auto;
+            padding: 20px;
+            width: 50%;
+            max-width: 400px;
+        }
+        .forgot-password {
+            color: #03335f;
+            text-decoration: none;
+            font-size: 0.9em;
+        }
+        #successPopup {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            z-index: 1000;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Student Deposit Page</h1>
-        <section id="login">
-            <h2>Login</h2>
-            <form>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Login</button>
-            </form>
-        </section>
+        <button id="loginBtn">Login</button>
 
         <section id="balance">
             <h2>Student Balance</h2>
@@ -105,12 +131,51 @@
             </form>
         </section>
     </div>
+
+    <div id="loginModal">
+        <div class="modal-content">
+                       <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <a class="forgot-password" href="#">Forgot password?</a>
+        </div>
+    </div>
+
+    <div id="successPopup">
+        <span>Login successful!</span>
+    </div>
+
+    <script>
+        document.getElementById('loginBtn').addEventListener('click', function() {
+            document.getElementById('loginModal').style.display = 'block';
+        });
+
+        document.getElementById('loginModal').addEventListener('click', function(event) {
+            if (event.target == this) {
+                this.style.display = 'none';
+            }
+        });
+
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('loginModal').style.display = 'none';
+            showSuccessPopup();
+        });
+
+        function showSuccessPopup() {
+            const successPopup = document.getElementById('successPopup');
+            successPopup.style.display = 'block';
+            setTimeout(function() {
+                successPopup.style.display = 'none';
+            }, 3000);
+        }
+    </script>
 </body>
 </html>
 
-
-	
-
-	
-	
 	
