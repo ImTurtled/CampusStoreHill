@@ -503,3 +503,10 @@ nav {
   .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
     color: #fff;
   }
+  .navbar {
+    font-family: sans-serif;
+    margin: -0.5%;
+  }
+  a {
+    text-decoration: none;
+  }
