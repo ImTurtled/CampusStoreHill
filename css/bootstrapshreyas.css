@@ -10285,4 +10285,35 @@ transform: scale(1);
 	border: 5px solid #03335F;
 	border-bottom: 5px solid #03335F
 }
+
+.videoContainer 
+{
+    height:88.4%;
+    width:100%;
+	padding: 150px;
+    overflow: hidden;
+    position:absolute;
+}
+
+.videoContainer video 
+{
+    width: 100%;
+    height: 100%;
+    min-width:1920px;
+    min-height:1080px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);/*For IE9*/
+    transform:translate(-50%, -50%);
+}
+#content {
+  overflow-x: hidden;
+  white-space: nowrap;
+}
+
+h2 {
+  align-content: center;
+}
 /*# sourceMappingURL=bootstrap.css.map */
