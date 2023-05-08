@@ -17,7 +17,5 @@ button {
 }
 #top {
     text-align: center;
-}
-button a {
-    color: white;
+    margin: 0 auto;
 }
