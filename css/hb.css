@@ -8,3 +8,16 @@
     font-size: 40px;
     font-style: italic;
 }
+button {
+    background-color: #03335F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+#top {
+    text-align: center;
+}
+button a {
+    color: white;
+}
