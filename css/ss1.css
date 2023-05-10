@@ -1,0 +1,150 @@
+.top {
+	text-align: center;
+
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+	font-size: 35px;
+}x
+.half {
+	width: 50%;
+
+}
+table {
+	border-collapse: collapse;
+}
+h5 {
+	font-size: 20px;
+	margin-bottom: 1%;
+}
+button {
+	background-color: darkblue;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	padding: 20px;
+}
+.special {
+	margin-left: 25%;
+}
+br {
+	background-color: white;
+}
+#haha {
+	border-top: 20px solid white;
+}
+.carousel-item {
+	background-color: white;
+}
+td {
+	text-align: center;
+	width: 50%;
+	font-size: 20px;
+	font-weight: bold;
+}
+th {
+	font-size: 25px;
+}
+tr {
+	text-align: center;
+}
+.top {
+	text-align: center;
+
+}
+h1 {
+    font-size: 50px;
+}
+.title h1 {
+	font-size: 75px;
+}
+.title h2 {
+    font-size: 50px;
+}
+.title {
+    text-align: center;
+    color: white;
+    border-bottom: 20px solid #03335F;
+	background-image: url("/images/placeholder2.png");
+	padding: 300px;
+	border: 5px solid #03335F;
+	border-bottom: 20px solid #03335F
+}
+h3 {
+	font-size: 35px;
+}
+body {
+	background-color: white;
+	color: #03335F;
+}
+
+.half {
+	width: 50%;
+
+}
+.times table {
+	width: 20%;
+}
+table {
+	border-collapse: collapse;
+	border: 5px solid #03335F;
+	width: 80%;
+	margin: 0 auto;
+}
+h5 {
+	font-size: 20px;
+	margin-bottom: 1%;
+}
+button {
+	background-color: darkblue;
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
+	padding: 20px;
+}
+.special {
+	margin-left: 25%;
+}
+br {
+	background-color: #03335F;
+}
+#haha {
+	border-top: 20px solid #03335F;
+}
+.carousel-item {
+	background-color: #03335F;
+}
+.times td {
+	text-align: center;
+	width: 50%;
+	font-size: 5px;
+	font-weight: bold;
+}
+.times th {
+	font-size: 15px;
+}
+td {
+	font-size: 20px;
+}
+th {
+	font-size: 25px;
+}
+td, th {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: none;
+	padding-bottom: none;
+	border: 5px solid #03335F;
+}
+tr {
+	text-align: center;
+}
+#test {
+	width: 500px;
+	border: 5px solid #03335F;
+}
+#testLC {
+	width: 500px;
+}
