@@ -202,9 +202,6 @@ svg {
   vertical-align: middle;
 }
 
-table {
-  border-collapse: collapse;
-}
 
 caption {
   padding-top: 0.75rem;
@@ -10313,7 +10310,15 @@ transform: scale(1);
   white-space: nowrap;
 }
 
-h2 {
+.contactbar{
+
+  padding: 25px;
   align-content: center;
-}
+  background-color: 
+#371f15;
+color: #F6EEE0;
+font-size: 14px;
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */
