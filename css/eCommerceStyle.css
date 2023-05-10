@@ -118,7 +118,8 @@ header {
 /* Prices of a products in catalog */
 .productRow .productInfo .price {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: #03335F;
+	font-weight: bold;
 	font-size: 22px;
 	position: relative;
 	top: -20px;
@@ -131,7 +132,8 @@ header {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-style: normal;
 	font-weight: 200;
-	color: rgba(146,146,146,1.00);
+	color: #03335F;
+	font-weight: bold;
 	white-space: pre-wrap;
 }
 /* Buy button for products in catalog */
@@ -139,9 +141,10 @@ header {
 	position: relative;
 	top: -48px;
 	width: 84%;
-	background-color: rgba(208,207,207,1.00);
+	background-color: #03335F;
 	height: 35px;
-	color: rgba(255,255,255,1.00);
+	color: white;
+	font-weight: bold;
 	border-style: none;
 	font-size: 14px;
 	text-transform: uppercase;
