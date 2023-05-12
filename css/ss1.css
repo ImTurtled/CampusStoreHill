@@ -12,8 +12,11 @@ h3 {
 	width: 50%;
 
 }
-table {
+.table {
 	border-collapse: collapse;
+	border: 5px solid #03335F;
+	width: 80%;
+	margin: 0 auto;
 }
 h5 {
 	font-size: 20px;
@@ -38,16 +41,16 @@ br {
 .carousel-item {
 	background-color: white;
 }
-td {
+.td {
 	text-align: center;
 	width: 50%;
 	font-size: 20px;
 	font-weight: bold;
 }
-th {
+.th {
 	font-size: 25px;
 }
-tr {
+.tr {
 	text-align: center;
 }
 .top {
@@ -87,12 +90,6 @@ body {
 .times table {
 	width: 20%;
 }
-table {
-	border-collapse: collapse;
-	border: 5px solid #03335F;
-	width: 80%;
-	margin: 0 auto;
-}
 h5 {
 	font-size: 20px;
 	margin-bottom: 1%;
@@ -125,20 +122,27 @@ br {
 .times th {
 	font-size: 15px;
 }
-td {
+.td {
 	font-size: 20px;
 }
-th {
+.th {
 	font-size: 25px;
 }
-td, th {
+.td, {
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: none;
 	padding-bottom: none;
 	border: 5px solid #03335F;
 }
-tr {
+.th {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: none;
+	padding-bottom: none;
+	border: 5px solid #03335F;
+}
+.tr {
 	text-align: center;
 }
 #test {
