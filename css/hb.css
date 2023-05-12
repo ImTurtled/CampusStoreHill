@@ -21,18 +21,27 @@ button {
 }
 .topButton {
 	position: relative;
-	top: -48px;
+	top: -50px;
 	width: 84%;
-	background-color: rgba(208,207,207,1.00);
+	background-color: #F3B720;
 	height: 35px;
 	color: rgba(255,255,255,1.00);
 	border-style: none;
 	font-size: 14px;
 	text-transform: uppercase;
 	margin-top: 8px;
+    padding: 5px;
+    font-weight: bold;
+    border: 5px inset #03335F;
+}
+.topButton:hover {
+    background-color: #03335F;
+    color: #F3B720;
+    border: 5px inset #F3B720;
 }
 body {
     color: #03335F;
+    overflow-x: hidden;
 }
 h5 {
     font-size: 20px;
