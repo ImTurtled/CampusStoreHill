@@ -152,6 +152,11 @@ header {
 	margin-top: 8px;
 	border: 5px inset #F3B720;
 }
+.buyButton:hover {
+	background-color: #F3B720;
+	color: #03335F;
+	border: 5px inset #03335F;
+}
 /* footer */
 #mainWrapper footer {
 	clear: both;
