@@ -23,7 +23,7 @@
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto; /* Increased spacing from top */
             padding: 20px;
             background-color: #F3B720;
             border-radius: 8px;
@@ -115,11 +115,33 @@
             font-weight: 500;
             font-size: 1.25rem;
         }
+
+        /* Styles for contact information */
+        .contactbar {
+            margin-top: 40px; /* Increased spacing from top */
+            margin-bottom: 40px; /* Increased spacing from bottom */
+            width: 100%;
+        }
+        .contactbar td {
+            text-align: center;
+        }
+        .contactbar td a {
+            color: white;
+            transition: color 0.2s;
+        }
+        .contactbar td a:hover {
+            color: #F3B720;
+        }
+
+        /* Additional spacing between navbar and main box */
+        .navbar1 {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body id="top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar1">
-        <a href="index.html"><img src="images/logo.webp" alt="Placeholder image" width="100px " height="100px" "class=img-fluid rounded"></a>
+        <a href="index.html"><img src="images/logo.webp" alt="Placeholder image" width="100px" height="100px" class="img-fluid rounded"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
             <a class="navbar-brand" href="products.html">Products</a> 
@@ -176,43 +198,23 @@
     <div id="fundAddedPopup">
         <span>Funds added successfully!</span>
     </div>
-<style>
-    body {
-        font-family: 'Roboto', Arial, sans-serif;
-        background-color: #03335f;
-        color: #FFFFFF;
-        margin: 0;
-        padding: 0;
-        line-height: 1.5;
-    }
-    .container {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #F3B720;
-        border-radius: 8px;
-        margin-bottom: 300px; 
-    }
 
-</style>
-
-    
     <section>
         <table class="contactbar" cellpadding="20px" width="100%">
             <tr>
-                <td style="font-size: 30px;">
+                <td style="font-size: 30px; color: #F3B720;">
                     Contact and more information:
                 </td>
             </tr>
             <tr>
-                <td width="33%" style="text-align: center;">
-                    Shreyas: <a href="mailto:skorithiwada26@thehill.org" class="a">skorithiwada26@thehill.org</a>
+                <td width="33%">
+                    <span style="color: #F3B720;">Shreyas:</span> <a href="mailto:skorithiwada26@thehill.org" class="a">skorithiwada26@thehill.org</a>
                 </td>
-                <td width="33%" style="text-align: center;">
-                    Sammie: <a href="mailto:sfaella26@thehill.org" class="a">sfaella26@thehill.org</a>
+                <td width="33%">
+                    <span style="color: #F3B720;">Sammie:</span> <a href="mailto:sfaella26@thehill.org" class="a">sfaella26@thehill.org</a>
                 </td>
-                <td width="33%" style="text-align: center;">
-                    Maxim: <a href="mailto:mheinrich26@thehill.org" class="a">mheinrich26@thehill.org</a>
+                <td width="33%">
+                    <span style="color: #F3B720;">Maxim:</span> <a href="mailto:mheinrich26@thehill.org" class="a">mheinrich26@thehill.org</a>
                 </td>
             </tr>
         </table>
@@ -275,5 +277,6 @@
 
 </body>
 </html>
+
 
 
