@@ -153,14 +153,24 @@ sup {
   top: -.5em;
 }
 
-a {
+.a {
   color: #FFFFFF;
   text-decoration: none;
   background-color: transparent;
 }
 
-a:hover {
+.a:hover {
   color: #F3B720;
+  text-decoration: underline;
+}
+.a3 {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.a3:hover {
+  color: #03335F;
   text-decoration: underline;
 }
 
@@ -4352,6 +4362,8 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  color: #000000;
+  text-decoration: none;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -10283,6 +10295,16 @@ transform: scale(1);
 	border-bottom: 5px solid #03335F
 }
 
+.title2 {
+    text-align: center;
+    color: #03335F;
+    border-bottom: 5px solid #03335F;
+  background-image: url("/images/image3.HEIC");
+  padding: 110px;
+  border: 5px solid #03335F;
+  border-bottom: 5px solid #03335F
+}
+
 .videoContainer 
 {
     height:100%;
@@ -10391,7 +10413,7 @@ font-size: 14px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 30%;
-  background-color: #03335F;
+  background-color: #F3B720;
 }
 
 .card2:hover {
@@ -10412,7 +10434,11 @@ font-size: 14px;
     float: left;
     padding: 20px;
 }
-
+.float-child2 {
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+}
 .image45{
   width: 30%;
   height: 30%;
