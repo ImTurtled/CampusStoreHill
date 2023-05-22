@@ -154,7 +154,7 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #FFFFFF;
   text-decoration: none;
   background-color: transparent;
 }
@@ -10351,7 +10351,7 @@ font-size: 14px;
 .product-card {
   width: calc(25% - 15px);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  border-radius: 30px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -10380,6 +10380,7 @@ font-size: 14px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 30%;
+  background-color: #03335F;
 }
 
 .card:hover {
@@ -10390,6 +10391,7 @@ font-size: 14px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 30%;
+  background-color: #03335F;
 }
 
 .card2:hover {
