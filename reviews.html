@@ -22,7 +22,7 @@
         }
         .container {
             max-width: 800px;
-            margin: 20px auto;
+            margin: 40px auto;
             padding: 20px;
             background-color: #F3B720;
             border-radius: 10px;
@@ -31,6 +31,11 @@
         h1 {
             margin-bottom: 30px;
             color: #03335f;
+        }
+        .review-container {
+            max-height: 300px; 
+            overflow-y: auto; 
+            margin-bottom: 20px;
         }
         .review {
             margin-bottom: 20px;
@@ -46,6 +51,28 @@
         .stars {
             font-size: 1.2em;
             color: #F3B720;
+        }
+
+        
+        .contactbar {
+            margin-top: 40px; 
+            margin-bottom: 40px; 
+            width: 100%;
+        }
+        .contactbar td {
+            text-align: center;
+        }
+        .contactbar td a {
+            color: white;
+            transition: color 0.2s;
+        }
+        .contactbar td a:hover {
+            color: #F3B720;
+        }
+
+        
+        .navbar1 {
+            margin-bottom: 20px;
         }
     </style>
 	
@@ -83,49 +110,63 @@
         </div>
     </nav>
     <div class="container">
-        <h1>Student Reviews</h1>
-        <div class="review">
-            <h3>Jane Doe</h3>
-            <p class="stars">★★★★☆</p>
-            <p>"The platform has been extremely helpful for managing my funds. The user interface is very easy to navigate."</p>
-        </div>
-        <div class="review">
-            <h3>John Smith</h3>
-            <p class="stars">★★★★★</p>
-            <p>"I have been using this platform for the past two years, and I am extremely satisfied with its features and ease of use."</p>
-        </div>
-        <div class="review">
-            <h3>Michael Johnson</h3>
-            <p class="stars">★★☆☆☆</p>
-            <p>"It's a decent platform overall, but I've experienced a few glitches from time to time."</p>
+        <h1>School Store Reviews</h1>
+        <div class="review-container">
+            <div class="review">
+                <h3>Jane Doe</h3>
+                <p class="stars">★★★★☆</p>
+                <p>"The school store has a great variety of products. I always find what I need."</p>
+            </div>
+            <div class="review">
+                <h3>John Smith</h3>
+                <p class="stars">★★★★★</p>
+                <p>"The prices at the school store are very reasonable. I love the discounts for students."</p>
+            </div>
+            <div class="review">
+                <h3>Sarah Johnson</h3>
+                <p class="stars">★★★★☆</p>
+                <p>"The staff at the school store is always friendly and helpful. They provide excellent customer service."</p>
+            </div>
+            <div class="review">
+                <h3>Michael Thompson</h3>
+                <p class="stars">★★★★★</p>
+                <p>"The school store is well-organized and clean. It's a pleasant shopping experience."</p>
+            </div>
+            <div class="review">
+                <h3>Emily Wilson</h3>
+                <p class="stars">★★★☆☆</p>
+                <p>"The school store could improve their selection of snacks. More variety would be nice."</p>
+            </div>
+            <div class="review">
+                <h3>David Brown</h3>
+                <p class="stars">★★★★★</p>
+                <p>"I appreciate the school store's efforts to promote sustainability. They offer eco-friendly products."</p>
+            </div>
         </div>
     </div>
-</body>
 	
-	 
-    <section>
+	<section>
         <table class="contactbar" cellpadding="20px" width="100%">
             <tr>
-                <td style="font-size: 30px;">
+                <td style="font-size: 30px; color: #F3B720;">
                     Contact and more information:
                 </td>
             </tr>
             <tr>
-                <td width="33%" style="text-align: center;">
-                    Shreyas: <a href="mailto:skorithiwada26@thehill.org" class="a">skorithiwada26@thehill.org</a>
+                <td width="33%">
+                    <span style="color: #F3B720;">Shreyas:</span> <a href="mailto:skorithiwada26@thehill.org" class="a">skorithiwada26@thehill.org</a>
                 </td>
-                <td width="33%" style="text-align: center;">
-                    Sammie: <a href="mailto:sfaella26@thehill.org" class="a">sfaella26@thehill.org</a>
+                <td width="33%">
+                    <span style="color: #F3B720;">Sammie:</span> <a href="mailto:sfaella26@thehill.org" class="a">sfaella26@thehill.org</a>
                 </td>
-                <td width="33%" style="text-align: center;">
-                    Maxim: <a href="mailto:mheinrich26@thehill.org" class="a">mheinrich26@thehill.org</a>
+                <td width="33%">
+                    <span style="color: #F3B720;">Maxim:</span> <a href="mailto:mheinrich26@thehill.org" class="a">mheinrich26@thehill.org</a>
                 </td>
             </tr>
         </table>
     </section>
+</body>
 </html>
-
-
 
 	
 	
