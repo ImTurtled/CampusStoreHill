@@ -161,7 +161,7 @@ sup {
 
 .a:hover {
   color: #F3B720;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .a3 {
   color: #FFFFFF;
@@ -171,7 +171,7 @@ sup {
 
 .a3:hover {
   color: #03335F;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]) {
@@ -10412,7 +10412,7 @@ font-size: 14px;
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 30%;
+  width: 10%;
   background-color: #F3B720;
 }
 
@@ -10421,12 +10421,13 @@ font-size: 14px;
 }
 
 .container {
-  padding: 2px 16px;
+  padding: 2px 1zpx;
 }
 
 .float-container {
     border: 3px solid #fff;
-    padding: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 .float-child {
@@ -10438,6 +10439,7 @@ font-size: 14px;
     width: 33.3%;
     float: left;
     padding: 20px;
+    margin-bottom: 90px;
 }
 .image45{
   width: 30%;
@@ -10446,4 +10448,71 @@ font-size: 14px;
 .container2 {
   align-content: center;
 }
+
+.container3 {
+  align-content: center;
+  width: 25%;
+}
+
+
+.body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+.header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+.h12 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .product {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product-item {
+      border: 1px solid #ddd;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .product-image {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .product-title {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .product-price {
+      margin-top: 5px;
+      color: #888;
+    }
+
+    #line{
+      width: 100%;
+      align-content: center;
+      position: absolute;
+      top: 115%;
+      border-width: 40px;
+      border-color: #03335F;
+
+    }
 /*# sourceMappingURL=bootstrap.css.map */
