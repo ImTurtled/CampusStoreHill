@@ -1,33 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Clearance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>General Information</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrapshreyas.css" rel="stylesheet">
-    <link href="css/ss.css" rel="stylesheet">
-    
-  </head>
-  <body>
-    <div class="nobold">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a href="index.html"><img src="images/logo.webp" alt="Placeholder image" width="100px " height="100px" "class="img-fluid rounded"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent1"> 
-        <a class="navbar-brand" href="#.html">Products</a>
-        <a class="navbar-brand" href="EC2.html">Employees/Contact</a>
-        <a class="navbar-brand" href="Deposits page.html">Deposits</a>
-        <a class="navbar-brand" href="#.html">Reviews</a>
-        <a class="navbar-brand" href="clearance.html">Clearance</a>
-      </nav>
-    </div>
-	
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Deposit Page</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/eCommerceStyle.css" rel="stylesheet" type="text/css">
+    <link href="css/carosuel.css" rel="stylesheet" type="text/css">
+    <link href="css/navbar.css" rel="stylesheet" type="text/css">
+    <link href="css/hb.css" rel="stylesheet" type="text/css">
+    <link href="css/btn.css" rel="stylesheet" type="text/css">
+    <script>var __adobewebfontsappname__="dreamweaver"</script>
+    <script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
     <style>
         body {
             font-family: 'Roboto', Arial, sans-serif;
@@ -39,7 +23,7 @@
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto; 
             padding: 20px;
             background-color: #F3B720;
             border-radius: 8px;
@@ -131,9 +115,43 @@
             font-weight: 500;
             font-size: 1.25rem;
         }
+
+        
+        .contactbar {
+            margin-top: 40px; 
+            margin-bottom: 40px; 
+            width: 100%;
+        }
+        .contactbar td {
+            text-align: center;
+        }
+        .contactbar td a {
+            color: white;
+            transition: color 0.2s;
+        }
+        .contactbar td a:hover {
+            color: #F3B720;
+        }
+
+        
+        .navbar1 {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
-<body>
+<body id="top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar1">
+        <a href="index.html"><img src="images/logo.webp" alt="Placeholder image" width="100px" height="100px" class="img-fluid rounded"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <a class="navbar-brand" href="products.html">Products</a> 
+            <a class="navbar-brand" href="EC2.html">Employees/Contact</a> 
+            <a class="navbar-brand" href="deposits page.html">Deposits</a> 
+            <a class="navbar-brand" href="reviews.html">Reviews</a> 
+            <a class="navbar-brand" href="index.html">Clearance</a>
+        </div>
+    </nav>
+
     <div class="container">
         <h1>Student Deposit Page</h1>
         <button id="loginBtn">Login</button>
@@ -181,6 +199,27 @@
         <span>Funds added successfully!</span>
     </div>
 
+    <section>
+        <table class="contactbar" cellpadding="20px" width="100%">
+            <tr>
+                <td style="font-size: 30px; color: #F3B720;">
+                    Contact and more information:
+                </td>
+            </tr>
+            <tr>
+                <td width="33%">
+                    <span style="color: #F3B720;">Shreyas:</span> <a href="mailto:skorithiwada26@thehill.org" class="a">skorithiwada26@thehill.org</a>
+                </td>
+                <td width="33%">
+                    <span style="color: #F3B720;">Sammie:</span> <a href="mailto:sfaella26@thehill.org" class="a">sfaella26@thehill.org</a>
+                </td>
+                <td width="33%">
+                    <span style="color: #F3B720;">Maxim:</span> <a href="mailto:mheinrich26@thehill.org" class="a">mheinrich26@thehill.org</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
     <script>
         document.getElementById('loginBtn').addEventListener('click', function() {
             document.getElementById('loginModal').style.display = 'block';
@@ -218,7 +257,8 @@
             document.getElementById('balanceAmount').innerText = `$${newBalance}`;
             showFundAddedPopup();
         });
-	        function showSuccessPopup() {
+
+        function showSuccessPopup() {
             const successPopup = document.getElementById('successPopup');
             successPopup.style.display = 'block';
             setTimeout(function() {
@@ -234,7 +274,9 @@
             }, 3000);
         }
     </script>
+
 </body>
 </html>
 
-    
+
+
