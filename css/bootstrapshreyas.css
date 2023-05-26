@@ -10519,4 +10519,9 @@ font-size: 14px;
     #grad1 {
   background-image: linear-gradient(#fa8223 , #fccf3e);
 }
+
+.image-size{
+  width: 200px;
+  height: 200px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
