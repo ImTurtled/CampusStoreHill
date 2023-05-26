@@ -47,6 +47,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -4358,7 +4359,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.4125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 9rem;
+  margin-right: 10rem;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -10425,7 +10426,6 @@ font-size: 14px;
 }
 
 .float-container {
-    border: 3px solid #fff;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -10515,4 +10515,8 @@ font-size: 14px;
       border-color: #03335F;
 
     }
+
+    #grad1 {
+  background-image: linear-gradient(#fa8223 , #fccf3e);
+}
 /*# sourceMappingURL=bootstrap.css.map */
