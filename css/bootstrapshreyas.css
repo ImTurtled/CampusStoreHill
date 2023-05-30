@@ -10527,4 +10527,23 @@ font-size: 14px;
 
 .fixed-top
 {position:fixed;top:0;left:0;right:0;z-index:1030}
+
+.back-to-top{
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-left:92%; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+    text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #000;
+  background: #F3B720;
+  border-radius: 100px;
+  white-space: nowrap;
+  align-self: left;
+}
 /*# sourceMappingURL=bootstrap.css.map */
