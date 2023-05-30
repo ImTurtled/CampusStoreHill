@@ -4339,7 +4339,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 20 rem 20 rem;
-	background-color: #ffffff;
+	background-color: #D3D3D3;
 }
 
 .navbar .container,
@@ -4352,7 +4352,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-	background-color: #ffffff;
+	background-color: #D3D3D3;
 }
 
 .navbar-brand {
@@ -4693,7 +4693,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 .navbar1 {
-	background-color: #FFFFFF
+	background-color: #D3D3D3
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
@@ -6768,17 +6768,17 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #ffffff !important;
+  background-color: #D3D3D3 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #dae0e5 !important;
+  background-color: #D3D3D3 !important;
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #D3D3D3 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10524,4 +10524,7 @@ font-size: 14px;
   width: 200px;
   height: 200px;
 }
+
+.fixed-top
+{position:fixed;top:0;left:0;right:0;z-index:1030}
 /*# sourceMappingURL=bootstrap.css.map */
